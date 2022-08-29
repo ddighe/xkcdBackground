@@ -21,5 +21,3 @@ convert $img -channel RGB -negate $img
 feh --bg-max $img
 rm $route/file.html
 
-
-

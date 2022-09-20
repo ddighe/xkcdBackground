@@ -4,7 +4,7 @@ route=/home/httpwned/Downloads/xkcd
 rm $route/*.png
 rm $route/*.jpg
 rm $route/*.gif
-nom=$((RANDOM % 2662))
+nom=$((RANDOM % 2674))
 
 wget https://xkcd.com/$nom -O $route/file.html
 
